@@ -1,4 +1,4 @@
-A simple package to test OpenCV isntallation and ROS cv_bridge/image transport.
+A simple package to test OpenCV installation and ROS cv_bridge/image transport.
 opencv_tests has two nodes: 
 1. cv_test_node:
     Simply prints the opencv version and draws an image on the screen
@@ -11,3 +11,5 @@ opencv_tests has two nodes:
 
 Use rqt_image_view to see both images. If output_image is the same as the image_raw
 but with a blue square drawn on it, congratulations - opencv and ROS are working.
+
+https://github.com/lbrombach/opencv_tests.git

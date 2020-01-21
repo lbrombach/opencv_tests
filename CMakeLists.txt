@@ -215,3 +215,9 @@ target_link_libraries(cv_test_node ${OpenCV_LIBS} ${catkin_LIBRARIES})
 
 add_executable(cv_bridge_test src/cv_bridge_test.cpp)
 target_link_libraries(cv_bridge_test ${OpenCV_LIBS} ${catkin_LIBRARIES})
+
+add_executable(image_transport_test src/image_transport_test.cpp)
+target_link_libraries(image_transport_test ${OpenCV_LIBS} ${catkin_LIBRARIES})
+
+add_executable(hsv_colors src/hsv_colors.cpp)
+target_link_libraries(hsv_colors ${OpenCV_LIBS} ${catkin_LIBRARIES})
