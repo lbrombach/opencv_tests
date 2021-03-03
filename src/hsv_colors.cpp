@@ -29,7 +29,7 @@ int main()
 
         cvtColor(hsv, bgr, CV_HSV2BGR);
         imshow("out", bgr);
-        waitKey(2);
+        waitKey(1);
     }
     for (int col = 50; col < bgr.size().width; col += 50)
     {
