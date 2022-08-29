@@ -27,7 +27,7 @@ int main()
             hue++;
         }
 
-        cvtColor(hsv, bgr, CV_HSV2BGR);
+        cvtColor(hsv, bgr, COLOR_HSV2BGR);
         imshow("out", bgr);
         waitKey(1);
     }
